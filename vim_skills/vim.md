@@ -8,3 +8,5 @@ block comment: ctrl+v, I, comment signal, esc
 block uncomment: ctrl+v, l,j, d
 
 cursor move: ctrl+io
+
+convert tab to space: :set ts=4 :set expandtab :%retab!
